@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "11",
+      "price": 10000000,
+      "image": "21sadsa",
+      "desc": "k dep",
+      "categories": "dien thoai",
+      "isVisible": true
+    },
+    {
+      "id": 2,
+      "name": "11",
+      "price": 10000000,
+      "image": "21sadsa",
+      "desc": "k dep",
+      "categories": "dien thoai",
+      "isVisible": false
+    },
+    {
+      "name": "12",
+      "price": "21",
+      "categories": "12",
+      "desc": "12",
+      "id": 3
+    },
+    {
+      "name": "12",
+      "price": "21",
+      "categories": "12",
+      "desc": "12",
+      "id": 4
+    },
+    {
+      "name": "21321",
+      "price": "123321",
+      "categories": "1",
+      "desc": "asdas21321",
+      "id": 5
+    }
+  ]
+}
