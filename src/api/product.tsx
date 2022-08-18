@@ -1,7 +1,7 @@
 import instance from './instance';
 
 export const list = () => {
-    const url = `/products`;
+    const url = `/products?_expand=category`;
     return instance.get(url)
 }
 export const remove = (id) =>{
@@ -23,5 +23,13 @@ export const update = (id,data) =>{
 }
 export const getProductById = (id) =>{
     const url = `/products/${id}`;
+    return instance.get(url)
+}
+export const getRelatedProduct = (id) =>{
+    const url = `/products?categoryId=${id}`;
+    return instance.get(url)
+}
+export const getProductShop = () =>{
+    const url = `/products?isVisible=true`;
     return instance.get(url)
 }

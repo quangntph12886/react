@@ -1,0 +1,28 @@
+.cart{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.quantity{
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.cart-quantity{
+    border : 1px solid black
+}
+.cart-price{
+    color: red;
+    font-size: 20px;
+}
+.bx{
+    cursor: pointer;
+}
+.total{
+    font-weight: bold;
+    font-size: 20px;
+}
+.total-price{
+    color: red;
+}

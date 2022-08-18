@@ -1,0 +1,26 @@
+.header-search input{
+    background-color: none;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.header-search{
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-admin{
+    background-color: #00B0D7;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}

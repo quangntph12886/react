@@ -1,0 +1,23 @@
+.detail-price{
+    color: red;
+    font-size: 20px;
+}
+.detail{
+    padding-top: 50px;
+    display:  flex;
+}
+.detail-info{
+    margin-left: 100px;
+}
+.detail-name{
+    font-weight: 400;
+    font-size: 30px;
+}
+.related-product{
+    display: flex;
+    padding: 40px 0;
+    gap: 20px
+}
+.product{
+    margin-top: 80px;
+}

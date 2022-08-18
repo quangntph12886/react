@@ -1,43 +1,66 @@
 {
   "products": [
     {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660093342/anhhtus/ugpypgnbsb0pzhtkefou.png",
+      "name": "iPhone 13 128GB | Chính hãng VN/A",
+      "price": "15000000",
+      "categoryId": 1,
+      "desc": " Mô tả ngắn: Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước. Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.",
+      "longDesc": "<h2 class=\"ql-align-justify\"><strong style=\"color: rgb(54, 54, 54);\">Đánh giá iPhone 13 - Flagship được mong chờ năm 2021</strong></h2><p class=\"ql-align-justify\">Cuối năm 2020, bộ 4 iPhone 12 đã được ra mắt với nhiều cái tiến. Sau đó, mọi sự quan tâm lại đổ dồn vào sản phẩm tiếp theo –&nbsp;<strong style=\"color: rgb(54, 54, 54);\">iPhone 13.</strong>&nbsp;Vậy iP&nbsp;13 sẽ có những gì nổi bật, hãy tìm hiểu ngay sau đây nhé!</p><h3 class=\"ql-align-justify\"><strong style=\"color: rgb(54, 54, 54);\">Thiết kế với nhiều đột phá</strong></h3><p class=\"ql-align-justify\">Về kích thước, iPhone 13 sẽ có 4 phiên bản khác nhau và kích thước không đổi so với series iPhone 12 hiện tại. Nếu iPhone 12 có sự thay đổi trong thiết kế từ góc cạnh bo tròn (Thiết kế được duy trì từ thời iPhone 6 đến iPhone 11 Pro Max) sang thiết kế vuông vắn (đã từng có mặt trên iPhone 4 đến iPhone 5S, SE).</p><p class=\"ql-align-justify\">Thì trên&nbsp;<a href=\"https://cellphones.com.vn/mobile/apple/iphone-13.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(215, 0, 24);\"><strong>điện thoại iPhone 13</strong></a>&nbsp;vẫn được duy trì một thiết kế tương tự. Máy<span style=\"color: rgb(0, 0, 0);\">&nbsp;vẫn có phiên bản khung viền thép, một số phiên bản khung nhôm cùng mặt lưng kính. Tương tự năm ngoái, Apple</span>&nbsp;cũng sẽ cho ra mắt 4 phiên bản là iPhone 13, 13 mini, 13 Pro và 13 Pro Max.</p>",
       "id": 1,
-      "name": "11",
-      "price": 10000000,
-      "image": "21sadsa",
-      "desc": "k dep",
-      "categories": "dien thoai",
       "isVisible": true
     },
     {
-      "id": 2,
-      "name": "11",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659973908/anhhtus/tovh8dpzultqhwtiza9i.png",
+      "name": "Nokia X10 5G",
       "price": 10000000,
-      "image": "21sadsa",
-      "desc": "k dep",
-      "categories": "dien thoai",
-      "isVisible": false
+      "categoryId": 1,
+      "desc": " Mô tả ngắn: Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước. Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.",
+      "longDesc": "<h2 class=\"ql-align-justify\"><strong style=\"color: rgb(54, 54, 54);\">Điện thoại Nokia X10 - Smartphone dung lượng pin lớn</strong></h2><p class=\"ql-align-justify\"><a href=\"https://cellphones.com.vn/mobile/hang-sap-ve/nokia.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(215, 0, 24);\"><strong>Điện thoại Nokia</strong></a><strong style=\"color: rgb(54, 54, 54);\">&nbsp;X10</strong>&nbsp;là sản phẩm thuộc phân khúc tầm trung mới được HMD Global ra mắt. Với bộ chip mạnh mẽ cùng kết nối 5G hiện đại và dung lượng pin ấn tượng, đây sẽ là chiếc smartphone nổi bật chắc chắn sẽ mang đến cho người dùng ấn tượng độc đáo.</p><h3 class=\"ql-align-justify\"><strong style=\"color: rgb(54, 54, 54);\">Thiết kế đơn giản, mặt lưng nhám</strong></h3><p class=\"ql-align-justify\">Không khác gì những phiên bản trước đó, Nokia X10 được thiết kế với ngoại hình khá đơn giản, cụm camera được đặt trong module hình tròn ở vị trí giữa mặt lưng bắt mắt. Màn hình đục lỗ chứa camera selfie vô cùng thời thượng. Máy sẽ mang đến cho khách hàng 2 tùy chọn màu sắc là trắng tuyết và xanh thông đặc biệt.</p><p><br></p>",
+      "id": 2,
+      "isVisible": true
     },
     {
-      "name": "12",
-      "price": "21",
-      "categories": "12",
-      "desc": "12",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660005100/anhhtus/vittml4u2w2h6hbmuwrx.png",
+      "name": "Laptop Gaming Acer Nitro 5 AN515 45 R6EV",
+      "price": 25000000,
+      "categoryId": 2,
+      "desc": "Laptop Gaming Acer Nitro 5 AN515-45-R6EV được trang bị bộ vi xử lý AMD Ryzen 5 dòng H manh mẽ, con chip có sức mạnh tối đa đến 4.2GHz. Bộ nhớ đệm 16GB sẵn sàng hỗ trợ mọi thao tác lưu tệp dữ liệu trong văn phòng từ cơ bản đến nâng cao.\n\nBộ RAM 8GB mang lại cho Acer Nitro 5 AN515-45-R6EV khả năng đa nhiệm mượt mà. Giúp mọi công việc đều trơn tru và hiệu quả.",
+      "longDesc": "<h2 class=\"ql-align-justify\">Laptop gaming Acer Nitro 5 AN515-45-R6EV - Hiệu năng mạnh mẽ, diện mạo ấn tượng</h2><p class=\"ql-align-justify\">Nổi tiếng là một thiết kế phá cách diện mạo cùng hiệu năng mạnh mẽ ấn tượng, chiếc laptop này có ấn tượng mạnh từ ngoài vào trong. Bạn có thể thực hiện mọi thao tác hằng ngày mượt mà trên<a href=\"https://cellphones.com.vn/laptop/acer/nitro.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(215, 0, 24);\"><strong>&nbsp;laptop Gaming Acer Nitro</strong></a><strong style=\"color: rgb(54, 54, 54);\">&nbsp;5 AN515-45-R6EV</strong>. Hãy xem những ưu điểm cuốn hút khiến người dùng bất chấp tất cả để lựa chọn nó nhé!</p><h3 class=\"ql-align-justify\"><strong>Thiết kế gaming bắt mắt, đèn nền nhiều màu sắc</strong></h3><p class=\"ql-align-justify\">Laptop Gaming Acer Nitro 5 AN515-45-R6EV sở hữu kiểu dáng vô cùng thu hút với mặt lưng nổi bật, hầm hố. Khung viền hoàn thiệt chắc chắn từ nguyên liệu chất lượng cao, dày 23.9mm hầm hố nhưng không quá nặng nề.</p><p class=\"ql-align-justify\">Bàn phím trên laptop được thiết kế fullsize với đèn nền chuyển màu. Bàn phím có độ nảy êm ái, có đèn ánh sáng rất dễ dùng không cần lo điều kiện ánh sáng có tốt không.</p>",
+      "id": 3,
+      "isVisible": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "dien thoai"
+    },
+    {
+      "name": "may tinh",
+      "id": 2
+    },
+    {
+      "name": "tai nghe",
       "id": 3
     },
     {
-      "name": "12",
-      "price": "21",
-      "categories": "12",
-      "desc": "12",
+      "name": "dfsdfsd",
       "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "quangntph12886@fpt.edu.vn",
+      "password": "$2a$10$k..nUCSymQN1BPhFQMWyvuWiAFUmJsOjhE3Sk0zQCsHDdVM8YBYNu",
+      "phone": "0832138218",
+      "id": 1
     },
     {
-      "name": "21321",
-      "price": "123321",
-      "categories": "1",
-      "desc": "asdas21321",
-      "id": 5
+      "email": "tienquang20019g@gmail.com",
+      "password": "$2a$10$cYjabC.vZhvi7ql3X6jKU.axv4aRlS/J6469sY4ndPUQvtXS2DacC",
+      "phone": "0832138218",
+      "id": 2
     }
   ]
 }

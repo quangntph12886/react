@@ -1,0 +1,36 @@
+.header{
+    background-color: #D70018;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    gap: 14px;
+}
+.nav-link{
+    color: white;
+}
+.header-search input{
+    background-color: none;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.header-search{
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

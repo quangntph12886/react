@@ -1,11 +1,11 @@
 
 import { Outlet, Link } from "react-router-dom";
 import { Layout, Menu, Button } from "antd";
+import icon1 from '../assets/1.png'
+import Logo from '../assets/logo.png'
+import "./adminlayout.style.css"
 
-
-
-
-const { Content, Sider, Header } = Layout;
+const { Content, Sider } = Layout;
 
 const items = [
   {
@@ -34,21 +34,25 @@ export default function AdminLayout() {
 
   return (
     <Layout>
-      <Sider breakpoint="lg" collapsedWidth="0">
-        <Menu theme="dark" mode="inline" items={items} />
-      </Sider>
-      <Layout>
-        <Header className="site-layout-background header-admin">
-          <Button type="primary" >
-            Log out
-          </Button>
-        </Header>
+      <div>
+            <div className="header-admin">
+                <div className="container header-container">
+                <Link to="/admin/product/list"> <img src={Logo} alt="" />  </Link>  
+
+                    <div className="header-right">
+                        <div className="header-search">
+                            <img src={icon1} alt="" />
+                            <input type="text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <Content style={{ margin: "24px 16px" }}>
           <div className="site-layout-background" style={{ padding: 24, height: "100%" }}>
             <Outlet />
           </div>
         </Content>
-      </Layout>
     </Layout>
   );
 }

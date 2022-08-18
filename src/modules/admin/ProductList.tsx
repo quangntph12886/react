@@ -1,10 +1,11 @@
 import { Space, Table, Tag, Switch } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
 import React, { useState, useEffect } from 'react';
-import { list, remove } from '../../api/product'
-import { useNavigate,Link } from 'react-router-dom';
+import { list, remove, update } from '../../api/product'
+import { useNavigate, Link } from 'react-router-dom';
 import IProduct from '../../model/product';
-
+import { listCategory } from '../../api/category';
+import { upload } from '../../api/image';
 
 const ProductList = () => {
   const [products, setProducts] = useState<IProduct[]>([])
@@ -40,15 +41,18 @@ const ProductList = () => {
     },
     {
       title: 'Danh mục',
-      key: 'categories',
-      dataIndex: 'categories',
+      key: 'categoryId',
+      dataIndex: 'categoryId',
+      render: (_, record) => (
+        <span>{record.category?.name}</span>
+      ),
     },
     {
       title: 'Ẩn/hiện ',
       key: 'hide',
       render: (_, record) => (
         <Space size="middle">
-          <Switch checked={record.isVisible} onChange={()=>handleChangeState(record.id)} />
+          <Switch checked={record.isVisible} onChange={() => handleChangeState(record.id)} />
         </Space>
       ),
     },
@@ -70,16 +74,21 @@ const ProductList = () => {
     }
     getProducts();
   }, [])
-  
-  const handleChangeState = (id:number)=>{
-      const newProduct = products.map(product => {
-        if(product.id === id){
-          return {...product, isVisible:!product.isVisible}
-        }else{
-          return product
-        }
-      })
-      setProducts(newProduct);
+
+  const handleChangeState = async (id: number) => {
+
+    const index = products.findIndex(item => item.id === id)
+    await update(id,{
+      isVisible: !products[index].isVisible
+    })
+    const newProduct = products.map(product => {
+      if (product.id === id) {
+        return { ...product, isVisible: !product.isVisible }
+      } else {
+        return product
+      }
+    })
+    setProducts(newProduct);
   }
 
 
